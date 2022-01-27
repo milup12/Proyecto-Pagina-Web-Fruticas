@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="ISO-8859-1">
+    <meta name="language" content="ES">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Pagina que te muestra la disponibilidad de alimentos,
+    el mas apto para tus necesidades y tu bolsillo">
+    <meta name="autor" content="Angela Camila Peña Cortes, cami_96angelita@hotmail.com">
+    <meta name="responder a" content="cami_96angelita@hotmail.com">
+    <meta name="revision" content="Lunes,11,11,2021,18:12">
+    <meta name="robots" content="index/">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <title>Fruticas</title>
+</head>
+<body>
+
+    
+    <header class="parallax2">
+ 
+    <main>
+
+       
+        <section>
+            <article>
+                <form action="registro.php" method="get" autocomplete="off" class="formulario">
+                    <section class="letra">
+                        
+                        <h3 id="volver"><a href="index.html">Volver</a></h3>
+                      <h3 id="registro">Registro</h3>
+
+                        <p>
+                            <label for="nombre">Nombre Completo:</label>
+                            <input type="text" name="nombre" id="nombre" size="140" maxlength="20"  required autofocus> <!--placeholder-->
+                        </p>
+                       <br>
+                        <p>
+                        
+                        
+                            <label for="tipdoc">Tipo de Documento</label>
+                         <select name="tipdoc" id="tipdoc"> 
+                            <option value="ti">Tarjeta de Identidad</option> 
+                            <option value="cc"selected>Cedula de Ciudadania</option>
+                            <option value="ce">Cedula de Extranjeria</option>
+                         </select>
+                        </p>
+
+                        <p>
+                            <label for="numdoc">Numero de Documento:</label> 
+                            <input type="text" id="numdoc" name="numdoc" size="30" maxlength="10" required >
+                        </p>
+
+                        <!-- <p>
+                            <label for="correo">Correo:</label>
+                            <input type="email" id="correo" name="correo"  pattern="[A-Za-z0-9._%+-]{3,}@
+                            [a-zA-Z]{3,}([.]{1}[a-zA-Z]{2,}|[.] {1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,})" required>
+                        </p>
+                  
+     -->
+                        <p>
+                            <label for="telefono">Telefono:</label>
+                            <input type="telefono" id="telefono" name="telefono" >
+                        </p>
+            
+                        <!-- <p>
+                            <label for="gene">Género:</label> 
+                           
+                            <input type="radio" name="gen" value="Masculino"> Masculino 
+                          
+                            <input type="radio" name="gen" value="Femenino"> Femenino 
+                           
+                            <input type="radio" name="gen" value="Otro" > Otro
+     
+                        </p>
+          
+                        <p>
+                            <label>¿Qué frutas te gustan más?:</label>
+                          
+                            <input type="checkbox" name="acidas"> Ácidas
+                           
+                            <input type="checkbox" name="semi">Semiácidas
+                           
+                            <input type="checkbox" name="neutras">Neutras
+                           
+                            <input type="checkbox" name="dulces"> Dulces
+                        </p> 
+                      -->
+
+                        <p>
+                            <label for="contraseña">Contraseña:</label>
+                            <input type="password" id="contraseña" name="contraseña"  pattern=".{6,}" required>
+                        </p>
+                  
+
+                        <p>
+                            <label for="contraseña1">Confirme Contraseña:</label>
+                            <input type="password" id="contraseña1" name="contraseña1"  pattern=".{6,}" required>
+                        </p>
+                                   
+                   
+                        <p>
+                            <label for="observaciones">Observaciones:</label>
+                            <br>
+                            <textarea id="observaciones" name="observaciones" cols="50" rows="5" ></textarea> 
+                        </p>
+    
+                          
+                        <p> 
+                            <button type="submit" id="start">Enviar</button> 
+                             <button type="reset" id="clean">Limpiar</button>
+                        </p>
+
+                    </section>
+                   
+                </form>
+                
+            </article>
+
+            <article class="abajo">
+                <ul>
+                    <li>¡Tus Frutas y verduras frescas y economicas!</li>
+                    <li>¡Supermercados reconocidos!</li>
+                    <li>¡A un click de distancia!</li>
+                </ul>
+
+            </article>
+        </section>
+
+       
+    </main>
+
+    <br>
+    <br>
+    <footer>
+        <p><br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licencia de Creative Commons Reconocimiento 4.0 Internacional</a>.</p></p>
+    </footer>
+</header>
+</body>
+</html> 
