@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mochiy+Pop+One&family=Roboto:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -48,9 +49,9 @@ header{
 
 #nom-sitio{
     margin: 0;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Itim', cursive;
     padding: 20px;
-    font-size: 40px;
+    font-size: 60px;
     background-color: #ce4637;
     text-align: center; 
 }
@@ -288,7 +289,9 @@ button a{
  
  footer{
     background: rgb(236, 224, 204);
-    margin-top: 20%;
+    margin-top: 10%;
+    font-family: 'Itim', cursive;
+    font-size: 5px;
 }
 
 footer p{
