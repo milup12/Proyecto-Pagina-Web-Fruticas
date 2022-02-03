@@ -49,10 +49,10 @@ header{
 
 #nom-sitio{
     margin: 0;
-    font-family: 'Itim', cursive;
+    font-family: 'Itim', cursive; /*Cambio fuente github*/
     padding: 20px;
     font-size: 60px;
-    background-color: #ce4637;
+    background-color: #ce4637; /*Cambio color github*/
     text-align: center; 
 }
 
@@ -321,7 +321,7 @@ footer p{
  .parallax3{
     width: 100%;
     height: 100%;
-    background-image: url("../imagenes/autumfondo.jpg");
+    background-image: url("../imagenes/autumfondo.jpg"); /*modificacion backgroung github*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
